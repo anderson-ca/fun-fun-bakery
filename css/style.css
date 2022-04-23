@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --seconday-font: "Archivo", sans-serif;
+  --primary-color: #ddd5d0;
+  --secondary-color: #586f6b;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+
+img {
+    width: 100%;
+}
